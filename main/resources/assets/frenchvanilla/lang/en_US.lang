@@ -1,0 +1,9 @@
+itemGroup.FrenchVanilla=FrenchVanilla
+
+tile.FrenchVanilla:coarseDirt.name=Coarse Dirt
+tile.FrenchVanilla:grassPath.name=Grass Path
+tile.FrenchVanilla:oldGravel.name=Old Gravel
+
+item.FrenchVanilla:wateringCan.name=Watering Can
+item.FrenchVanilla:wateringCan.empty.name=Watering Can (Empty)
+item.FrenchVanilla:woodenBucket.empty.name=Wooden Bucket
