@@ -1,14 +1,14 @@
 package cerdra.FrenchVanilla.blocks;
 
-import cerdra.FrenchVanilla.items.ItemBlockMod;
-import cerdra.FrenchVanilla.misc.FrenchVanillaCreativeTab;
-import cerdra.FrenchVanilla.misc.LibReference;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import cerdra.FrenchVanilla.items.ItemBlockMod;
+import cerdra.FrenchVanilla.misc.FrenchVanillaCreativeTab;
+import cerdra.FrenchVanilla.misc.LibReference;
 
 public class BlockMod extends Block {
 

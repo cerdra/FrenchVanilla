@@ -9,8 +9,8 @@ public final class ModBlocks {
     public static Block coarseDirt;
     public static Block grassPath;
     public static Block oldGravel;
-    public static Block brownMushroomBlock;
-    public static Block redMushroomBlock;
+//    public static Block brownMushroomBlock;
+//    public static Block redMushroomBlock;
 
     public static void init() {
         Blocks.command_block.setCreativeTab(CreativeTabs.tabRedstone);

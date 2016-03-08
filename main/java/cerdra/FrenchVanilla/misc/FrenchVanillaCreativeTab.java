@@ -1,7 +1,6 @@
 package cerdra.FrenchVanilla.misc;
 
 import cerdra.FrenchVanilla.blocks.ModBlocks;
-import cpw.mods.fml.common.Mod;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;

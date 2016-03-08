@@ -1,10 +1,9 @@
 package cerdra.FrenchVanilla.items;
 
-
-import cerdra.FrenchVanilla.misc.LibReference;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
+import cerdra.FrenchVanilla.misc.LibReference;
 
 public class ItemBlockMod extends ItemBlock {
 

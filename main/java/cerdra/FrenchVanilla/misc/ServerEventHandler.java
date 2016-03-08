@@ -1,12 +1,7 @@
 // Credit to ganymedes01 for some code
 package cerdra.FrenchVanilla.misc;
 
-import cerdra.FrenchVanilla.blocks.BlockCoarseDirt;
-import cerdra.FrenchVanilla.blocks.BlockGrassPath;
-import cerdra.FrenchVanilla.blocks.ModBlocks;
-import cerdra.FrenchVanilla.config.ConfigVars;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemShears;
@@ -14,6 +9,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.entity.player.UseHoeEvent;
 import net.minecraftforge.event.world.BlockEvent;
+import cerdra.FrenchVanilla.blocks.BlockCoarseDirt;
+import cerdra.FrenchVanilla.blocks.BlockGrassPath;
+import cerdra.FrenchVanilla.config.ConfigVars;
 
 public class ServerEventHandler {
 
@@ -22,6 +20,7 @@ public class ServerEventHandler {
     @SubscribeEvent
     public void harvestEvent(BlockEvent.HarvestDropsEvent event) {
         if (!ConfigVars.isEtFuturumLoaded) {
+//            TODO: Eventually make mushrooms silk touchable
 //            if (ConfigVars.enableSilkTouchingMushrooms && event.isSilkTouching)
 //                if (event.block == Blocks.brown_mushroom_block) {
 //                    event.drops.clear();

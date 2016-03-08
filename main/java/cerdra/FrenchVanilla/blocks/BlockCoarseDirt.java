@@ -1,6 +1,5 @@
 package cerdra.FrenchVanilla.blocks;
 
-import cerdra.FrenchVanilla.config.ConfigVars;
 import cpw.mods.fml.common.eventhandler.Event;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -10,6 +9,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.common.util.ForgeDirection;
 import net.minecraftforge.event.entity.player.UseHoeEvent;
+import cerdra.FrenchVanilla.config.ConfigVars;
 
 public class BlockCoarseDirt extends BlockMod {
 

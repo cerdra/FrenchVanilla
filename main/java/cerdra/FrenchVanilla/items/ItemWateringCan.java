@@ -6,8 +6,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
-import cerdra.FrenchVanilla.config.ConfigVars;
-import cerdra.FrenchVanilla.misc.LibReference;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -29,6 +27,8 @@ import net.minecraft.util.*;
 import net.minecraft.world.World;
 import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.common.util.FakePlayer;
+import cerdra.FrenchVanilla.config.ConfigVars;
+import cerdra.FrenchVanilla.misc.LibReference;
 
 public class ItemWateringCan extends ItemMod
 {

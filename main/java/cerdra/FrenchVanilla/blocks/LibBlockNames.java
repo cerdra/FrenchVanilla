@@ -1,6 +1,5 @@
 package cerdra.FrenchVanilla.blocks;
 
-
 public class LibBlockNames {
 
     public static final String COARSEDIRT = "coarseDirt";

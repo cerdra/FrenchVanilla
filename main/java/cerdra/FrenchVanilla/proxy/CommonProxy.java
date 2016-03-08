@@ -1,18 +1,16 @@
 package cerdra.FrenchVanilla.proxy;
 
+import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.common.Loader;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.common.MinecraftForge;
 import cerdra.FrenchVanilla.blocks.ModBlocks;
 import cerdra.FrenchVanilla.config.ConfigHandler;
 import cerdra.FrenchVanilla.config.ConfigVars;
 import cerdra.FrenchVanilla.items.ModItems;
 import cerdra.FrenchVanilla.misc.LibReference;
 import cerdra.FrenchVanilla.misc.ServerEventHandler;
-import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.common.Loader;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Blocks;
-import net.minecraftforge.common.MinecraftForge;
 
 import java.io.File;
 

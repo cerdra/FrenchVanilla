@@ -1,6 +1,5 @@
 package cerdra.FrenchVanilla.blocks;
 
-import cerdra.FrenchVanilla.config.ConfigVars;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
@@ -15,6 +14,7 @@ import net.minecraftforge.common.EnumPlantType;
 import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.common.util.ForgeDirection;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import cerdra.FrenchVanilla.config.ConfigVars;
 
 import java.lang.reflect.Field;
 
